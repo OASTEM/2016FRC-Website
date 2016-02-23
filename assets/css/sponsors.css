@@ -1,0 +1,21 @@
+.sponsor-apply {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #852945;
+  color: white;
+}
+.sponsors {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sponsor-images .large > div {
+  display: inline-block;
+  width: 49%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.sponsor-images img {
+    width: 70%;
+}

@@ -1,0 +1,62 @@
+/* header */
+
+.full-width-bg {
+  display: table;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.header {
+    height: 100%;
+    background: url(../img/landing.jpg) no-repeat center center scroll;
+    color: white;
+}
+
+
+/* About */
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Services */
+.actions {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+.service-item-icon {
+  color: #DA784E;
+}
+
+/* robot */
+
+.robot {
+    height: 500px;
+    color: #fff;
+    background: url(../img/landing-2.jpg) no-repeat center center scroll;
+    background-size: 100%;
+
+}
+
+/* gallery */
+
+.gallery {
+    padding: 50px 0;
+}
+
+.gallery-img {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.gallery-img:hover {
+    opacity: 0.8;
+}
