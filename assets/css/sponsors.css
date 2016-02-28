@@ -1,8 +1,11 @@
+.pricing-desc {
+  margin-bottom: 50px;
+}
 .pricing-table {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .pricing-list {
-  height: 300px;
+  height: 250px;
 }
 .pricing .pricing-table .pricing-header {
   position: relative;
