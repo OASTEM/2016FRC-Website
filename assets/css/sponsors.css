@@ -53,3 +53,6 @@
 .pricing .pricing-list ul li:last-child {
   border: none;
 }
+.individual-sponsor {
+  margin: 25px 0px;
+}
