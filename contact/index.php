@@ -70,7 +70,19 @@ if (empty($_SESSION['token'])) {
           </div>
           <!-- /.container-fluid -->
       </nav>
-
+                <?php
+                    if (isset($_SESSION['flash'])){
+                        echo "<div id='flash'><div class='flash-container'>";
+                        echo "{$_SESSION["flash"]}<br><button onclick='dismiss()'>Dismiss</button>";
+                        echo "</div></div>";
+                        session_destroy();
+                    }
+                ?>
+          <script>
+              function dismiss(){
+                  document.getElementById("flash").style.display = "none";
+              }
+      </script>
       <div class="frc-container">
         <section id="contact">
         <div class="container">
